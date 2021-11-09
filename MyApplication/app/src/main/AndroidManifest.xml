@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:windowSoftInputMode="stateHidden|adjustResize">
+        <activity
+            android:name=".QQSlideMenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ToggleViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ZidingyiEditTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThreadDownloadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestGlideActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestFragmentSimpleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Dian9TestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyFragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewsContentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OkHttpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebViewActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="true" />
+        <activity
+            android:name=".NotifycationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestZiDingYiViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.example.myapplication.TopView
+
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        app:titleText="第3页"
+        app:endText="登录"
+        android:layout_height="wrap_content"/>
+    <com.example.myapplication.ImgEditText
+        android:id="@+id/et_login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_baseline_panorama_fish_eye_24"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sendNotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送通知" />
+        <Button
+            android:id="@+id/sendOkhttp"
+            android:layout_marginLeft="20dp"
+            android:text="发送http"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:id="@+id/test_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="测试fragment"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dian9ceshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试点9图"/>
+        <Button
+            android:id="@+id/test_fragment_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="测试简单fragment"/>
+        <Button
+            android:id="@+id/test_glide"
+            android:layout_marginStart="10dp"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试glide"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/thread_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多线程下载"/>
+        <Button
+            android:id="@+id/testEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义edittext"
+            android:layout_marginStart="10dp"/>
+        <Button
+            android:id="@+id/test_zidingyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义view"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/test_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试toggle"/>
+
+        <Button
+            android:id="@+id/test_my_qq_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试仿qq滑动"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
