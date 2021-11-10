@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button test_zidingyi;
     private Button test_toggle;
     private Button qqSlideButton;
+    private Button haizeiwang;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         test_zidingyi = findViewById(R.id.test_zidingyi);
         test_toggle = findViewById(R.id.test_toggle);
         qqSlideButton = findViewById(R.id.test_my_qq_slide);
+        haizeiwang = findViewById(R.id.hai_zei_wang);
+        haizeiwang.setOnClickListener(this);
         qqSlideButton.setOnClickListener(this);
         test_toggle.setOnClickListener(this);
         test_zidingyi.setOnClickListener(this);
@@ -205,6 +209,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.test_my_qq_slide:
                 Intent intent10 = new Intent(this,QQSlideMenuActivity.class);
                 startActivity(intent10);
+                break;
+            case R.id.hai_zei_wang:
+                Intent intent11 = new Intent(this,HaiZeiWangActivity.class);
+                startActivity(intent11);
                 break;
             default:
                 break;
