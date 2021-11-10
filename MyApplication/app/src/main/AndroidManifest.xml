@@ -21,6 +21,9 @@
         android:theme="@style/Theme.MyApplication"
         android:windowSoftInputMode="stateHidden|adjustResize">
         <activity
+            android:name=".HaiZeiWangActivity"
+            android:exported="true" />
+        <activity
             android:name=".QQSlideMenuActivity"
             android:exported="true" />
         <activity

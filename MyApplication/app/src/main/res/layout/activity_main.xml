@@ -119,6 +119,12 @@
             android:layout_height="wrap_content"
             android:text="测试仿qq滑动"
             android:layout_marginStart="10dp"/>
+        <Button
+            android:id="@+id/hai_zei_wang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试海贼王"
+            android:layout_marginStart="10dp"/>
     </LinearLayout>
     <WebView
         android:id="@+id/web_view"
